@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavia Berzuini | Portafolio</title>
+    
+    <!-- Fuentes de Google: Inter (Títulos), Roboto (Textos) y Caveat (Frase cursiva) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Librería de Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="logo-b.png">
+    <link rel="apple-touch-icon" href="logo-b.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header-fijo">
+        <nav>
+            <div class="logo">
+                <a href="#inicio" class="logo-link">
+                    <img src="logo-b.png" alt="Isotipo de Berzuini: letra B estilizada con degradado violeta y celeste sobre fondo circular oscuro" class="logo-img">
+                    <div class="logo-text-container">
+                        <span class="logo-text">BERZUINI</span>
+                        <!-- El subtítulo 3 pilares -->
+                        <span class="logo-subtitle">DESARROLLO &bull; EDUCACIÓN &bull; CREATIVIDAD</span>
+                    </div>
+                </a>
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#intereses">Intereses</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                
+                <!-- Íconos Sociales -->
+                <li class="mobile-socials">
+                    <div class="header-socials">
+                        <a href="https://github.com/FlaviaBerzuini" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/flavia-paola-berzuini" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN INICIO -->
+        <div class="hero-container">
+            <section id="inicio">
+                <div class="hero-text">
+                    <h1>Desarrollo soluciones<br>que conectan <span class="color-teal">tecnología</span><br>con <span class="color-purple">personas.</span></h1>
+                    <hr class="separador">
+                    <p>Estudiante de Tecnicatura en Desarrollo de Software<br>Futura Profesora de Educación Primaria</p>
+                </div>
+                
+               <!-- Blob Animado con isotipo y 3 badges -->
+                <div class="hero-blob-container">
+                    <!-- Contenedor del blob y la B central -->
+                    <div class="blob-wrapper">
+                        <div class="blob"></div>
+                        <div class="blob-center-text">
+                            <img src="logo-b.png" alt="Logotipo central de Berzuini" class="blob-logo">
+                            <span class="text-berzuini">BERZUINI</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Tarjetas flotantes -->
+                    <div class="glass-badge badge-dev">
+                        <span class="badge-icon">&lt;/&gt;</span> DESARROLLO
+                    </div>
+                    
+                    <div class="glass-badge badge-edu">
+                        <span class="badge-icon">✦</span> EDUCACIÓN
+                    </div>
+                    
+                    <div class="glass-badge badge-crea">
+                        <span class="badge-icon">✧</span> CREATIVIDAD
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+
+        <!-- SECCIÓN SOBRE MÍ -->
+       <section id="sobre-mi" class="scroll-section">
+            <div class="sobre-mi-container">
+                
+                <div class="sobre-mi-foto">
+                    <img src="mifoto.png" alt="Retrato de Flavia Paola Berzuini">
+                    <a href="#contacto" class="btn-outline purple">Hablemos</a>
+                </div>
+                
+                <div class="sobre-mi-texto">
+                    <p class="saludo-hola">¡Hola! Soy</p>
+                    <h2 class="saludo-nombre">Flavia Paola<br><span class="saludo-apellido">Berzuini</span></h2>
+                    
+                    <!-- Línea de tiempo mini -->
+                    <div class="mini-timeline">
+                        
+                        <div class="mt-item">
+                            <div class="mt-dot"></div>
+                            <div class="mt-content">
+                                <h3>Diseño Industrial <span class="mt-tag">(Orientación Gráfica)</span></h3>
+                                <p>Mis bases. Comencé explorando la <strong>creatividad</strong> visual y la resolución de problemas estéticos.</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-item">
+                            <div class="mt-dot"></div>
+                            <div class="mt-content">
+                                <h3>Profesorado de Biología en Educación Secundaria</h3>
+                                <p>Desarrollé mi vocación por la ciencia y comprendí cómo estructurar y <strong>transmitir</strong> el conocimiento.</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-item">
+                            <div class="mt-dot"></div>
+                            <div class="mt-content">
+                                <h3>Profesorado de Educación Primaria</h3>
+                                <p>Transitando mi residencia final, consolidando mi rol como <strong>formadora de bases pedagógicas</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-item mt-active">
+                            <div class="mt-dot"></div>
+                            <div class="mt-content">
+                                <h3>Técnicatura en Desarrollo de Software</h3>
+                                <p>El presente. Complemento la pedagogía con la ingeniería para <strong>crear</strong> herramientas que transformen realidades.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN FORMACIÓN -->
+        <section id="formacion" class="scroll-section">
+            <h2>Formación y certificaciones</h2>
+            <div class="certificaciones-grid">
+                
+                <div class="cert-card">
+                    <h3 class="card-title"><i class="fa-solid fa-code card-icon"></i> Frontend & Web</h3>
+                    <ul>
+                        <li>Formación react G4 - ONE (Alura)</li>
+                        <li>Formación front end G4 - ONE (Alura)</li>
+                        <li>Formación HTML & CSS (Alura)</li>
+                        <li>Primeros pasos front end (Ticmas)</li>
+                        <li>Creación de sitios web con Wordpress (Universidad de Congreso)</li>
+                    </ul>
+                </div>
+
+                <div class="cert-card">
+                    <h3 class="card-title"><i class="fa-solid fa-microchip card-icon"></i> Tecnología e IA</h3>
+                    <ul>
+                        <li>Arte digital y video generativo con IA (Talento Tech)</li>
+                        <li>IA para la productividad - Avanzado e inicial (Egg Live)</li>
+                        <li>Fundamentos de Azure (Microsoft)</li>
+                        <li>Principiante en programación (Alura)</li>
+                    </ul>
+                </div>
+
+                <div class="cert-card">
+                    <h3 class="card-title"><i class="fa-solid fa-lightbulb card-icon"></i> Habilidades ágiles</h3>
+                    <ul>
+                        <li>Formación business agility (Alura)</li>
+                        <li>Formación emprendimiento (Alura)</li>
+                        <li>Formación desarrollo personal (Alura)</li>
+                    </ul>
+                </div>
+            </div>
+
+           <!-- Carrusel -->
+            <div class="tech-stack-slider">
+                <div class="tech-track">
+                    <!-- Set íconos -->
+                    <div class="tech-item" title="HTML5" aria-label="Tecnología HTML5"><i class="fa-brands fa-html5" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="CSS3" aria-label="Tecnología CSS3"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="JavaScript" aria-label="Tecnología JavaScript"><i class="fa-brands fa-js" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="React" aria-label="Tecnología React"><i class="fa-brands fa-react" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Git" aria-label="Herramienta Git"><i class="fa-brands fa-git-alt" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="GitHub" aria-label="Plataforma GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Figma" aria-label="Herramienta Figma"><i class="fa-brands fa-figma" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="WordPress" aria-label="CMS WordPress"><i class="fa-brands fa-wordpress" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Android Studio" aria-label="Android Studio"><i class="fa-brands fa-android" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="C# / .NET" aria-label="C Sharp y punto NET"><i class="fa-brands fa-windows" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Inteligencia Artificial" aria-label="Inteligencia Artificial y Generación de Imágenes"><i class="fa-solid fa-robot" aria-hidden="true"></i></div>
+                    
+                    <!-- Duplicado para el bucle infinito -->
+                    <div class="tech-item" title="HTML5" aria-label="Tecnología HTML5"><i class="fa-brands fa-html5" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="CSS3" aria-label="Tecnología CSS3"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="JavaScript" aria-label="Tecnología JavaScript"><i class="fa-brands fa-js" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="React" aria-label="Tecnología React"><i class="fa-brands fa-react" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Git" aria-label="Herramienta Git"><i class="fa-brands fa-git-alt" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="GitHub" aria-label="Plataforma GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Figma" aria-label="Herramienta Figma"><i class="fa-brands fa-figma" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="WordPress" aria-label="CMS WordPress"><i class="fa-brands fa-wordpress" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Android Studio" aria-label="Android Studio"><i class="fa-brands fa-android" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="C# / .NET" aria-label="C Sharp y punto NET"><i class="fa-brands fa-windows" aria-hidden="true"></i></div>
+                    <div class="tech-item" title="Inteligencia Artificial" aria-label="Inteligencia Artificial y Generación de Imágenes"><i class="fa-solid fa-robot" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN INTERESES -->
+        <section id="intereses" class="scroll-section">
+            <h2>En constante movimiento</h2> <!-- Podés cambiar este título -->
+            
+            <div class="intereses-container">
+                
+                <!-- Columna izquierda: tarjetas con imágenes -->
+                <div class="intereses-galeria">
+                    
+                    <!-- Tarjeta 1: futsal -->
+                    <div class="interes-card">
+                        <div class="interes-img-container">
+                            <img src="futsal.jpg" alt="Arquera de futsal en acción" class="interes-img">
+                        </div>
+                        <div class="interes-info">
+                            <h3>Pasión en la cancha</h3>
+                            <p>Soy arquera de futsal en un equipo femenino. Disfruto cada entrenamiento y llego pedaleando en mi bici.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2: multimedia -->
+                    <div class="interes-card">
+                        <div class="interes-img-container">
+                            <img src="podcast.png" alt="Micrófono y edición multimedia" class="interes-img">
+                        </div>
+                        <div class="interes-info">
+                            <h3>Producción multimedia</h3>
+                            <p>Exploro constantemente la edición y la producción de formatos como los podcasts educativos.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3: caligrafía -->
+                    <div class="interes-card">
+                        <div class="interes-img-container">
+                            <img src="caligrafia.jpg" alt="Práctica de caligrafía tradicional" class="interes-img">
+                        </div>
+                        <div class="interes-info">
+                            <h3>Vuelta a los básicos</h3>
+                            <p>Me relajo practicando caligrafía tradicional. Un momento de conexión analógica con lápiz y papel.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Tarjeta 4: perritos -->
+                     <div class="interes-card">
+                        <div class="interes-img-container">
+                            <img src="perritos.jpg" alt="Paseo con mis perros" class="interes-img">
+                        </div>
+                        <div class="interes-info">
+                            <h3>Rutina infaltable</h3>
+                            <p>Mi día nunca está completo sin los paseos diarios y la compañía de mis perritos.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Columna derecha: frase en cursiva -->
+                <div class="intereses-frase">
+                    <p class="frase-cursiva">
+                        Sigo aprendiendo.<br>
+                        Sigo construyendo.<br>
+                        Sigo enseñando.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- SECCIÓN CONTACTO -->
+        <section id="contacto" class="scroll-section">
+            <h2>Contacto</h2>
+            
+            <div class="contacto-container">
+                <p class="contacto-intro">Siempre digo que las mejores cosas se construyen trabajando en equipo. Si tenés un proyecto en mente, querés que armemos algo juntos o solo pasabas a saludar, dejame tu mensaje acá abajo. Te contesto con gusto lo antes posible.</p>
+                
+                <!-- Formulario de contacto -->
+                <form action="#" method="POST">
+                    <div class="form-grupo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje aquí..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+
+    <footer>
+
+        <div class="footer-content">
+            <img src="logo-completo.png" alt="Logo Flavia Berzuini - Developer, Educator, Creative" class="footer-logo">
+            <p>&copy; 2026 Flavia Paola Berzuini. Todos los derechos reservados.</p>
+            <p>Proyecto PFO1 - Desarrollo de Sistemas Web Front End</p>
+        </div>
+    </footer> 
+
+</body>
+</html>
