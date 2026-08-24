@@ -12,7 +12,7 @@ Esta landing page fue desarrollada como entrega final para el **PFO1 de Desarrol
 
 ## Enlaces del proyecto
 - **Repositorio de GitHub:** https://github.com/FlaviaBerzuini/PFO1-BerzuiniFlavia
-- **Sitio publicado (Vercel):** https://tu-proyecto.vercel.app *(Nota: Actualizar este enlace una vez hecho el deploy)*
+- **Sitio publicado (Vercel):** https://pfo1-berzuiniflavia.vercel.app
 
 ## Decisiones de diseño y desarrollo
 Durante el proceso de maquetación, tomé varias decisiones estratégicas para asegurar un código limpio y una experiencia de usuario (UX) agradable:
